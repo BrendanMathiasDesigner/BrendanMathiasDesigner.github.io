@@ -1,0 +1,23 @@
+body {
+	text-align: left;
+	background: url("file:///D:/Web%20Assb%20Projects/background.jpg");
+	background-size: cover;
+	color: orange;
+	font-size: 22px;
+	font-style: Ariel;
+ }
+li {
+	align: r;
+}
+
+
+h1 {
+color:#ff0456;
+font-family: lobster;
+text-align: right;
+text: bold;
+}
+p {
+	color:blue;
+
+}
