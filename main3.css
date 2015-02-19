@@ -1,0 +1,42 @@
+body {
+	
+	text-align: left;
+	background: url("file:///D:/Web%20Assb%20Projects/background.jpg");
+	background-size: cover;
+
+	color: red;
+	font-size: 22px;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: left;
+	body-background: blue;
+
+}
+
+h2 {
+	"Courier New": monospace;
+	font-style: italic;
+	color: orange;
+	
+}
+
+h1 {
+
+
+color: #ff0456;
+font-family: 'lobster'; 
+text-align: right;
+
+
+}
+
+p {
+	color:blue;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+span {
+	text-decoration: underline;
+}
