@@ -1,0 +1,26 @@
+* { margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body { font-family:verdana,Tahoma,sans-serif;
+       font-size:16px;
+
+}
+header {
+
+}
+nav   {
+
+}
+nav a {
+
+}
+section {
+
+}
+section#splash {
+	background-image:url("images/cafepeople.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	height:95vh;
+}
