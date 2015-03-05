@@ -39,4 +39,11 @@ section#splash {
     padding: 1em;
     width: 50%;
     display: block;
-}   
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
