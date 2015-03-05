@@ -9,16 +9,18 @@ body { font-family:verdana,Tahoma,sans-serif;
 
 }
 header {
-
+	padding:1em;
 }
 nav   {
 	float:right;
-
+	margin:1em;
 }
 nav a {
 	color: #222222;
+	margin:1em;
+	padding:.5;
+	font-size:1.25;
 	text-decoration: none;
-
 }
 section {
 
@@ -32,12 +34,19 @@ section#splash {
 .logo { 
 	color: #ff0456;
 	font-family: "Lobster", cursive;
+	font-size:2.5em;
 	float: left;
 }
-#pastries img {
+#pastries>img {
+	width:100%;
+}
+#pastries div {
+	height:370px;
+	overflow:hidden;
+}
+#pastries div img {
     float: left;
-    padding: 1em;
-    width: 50%;
+    width: 33.33%;
     display: block;
 }
 .clearfix:after { 
