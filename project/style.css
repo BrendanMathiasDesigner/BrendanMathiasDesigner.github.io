@@ -6,6 +6,12 @@ body { font-family:verdana,Tahoma,sans-serif;
        font-size:16px;
        color: #222222;
 }
+#aboutBody {
+	background-image:url('images/branch.png');
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	height:100vh;
+}
 header {
 	padding:1em;
 }
