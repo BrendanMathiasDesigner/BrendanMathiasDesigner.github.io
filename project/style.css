@@ -17,6 +17,7 @@ body { font-family:verdana,Tahoma,sans-serif;
 	height:100vh;
 }
 header {
+	background-color:#c83737;
 	padding:1em;
 }
 nav   {
@@ -34,13 +35,31 @@ section {
 
 }
 section#splash {
-	background-image:url("images/sitemainpage.png");
-	background-size: cover;
-	background-repeat:no-repeat;
+	background-color:#c83737;
 	height:95vh;
+	position:relative;
+}
+section#splash img:first-child {
+	position: absolute;
+	left: 0;
+	width: 50%;
+}
+section#splash img:nth-child(2) {
+	position: relative;
+	top: 47%;
+	transform: translateY(-50%);
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+section#splash img:last-child {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50%;
 }
 .logo { 
-	color: #ff0456;
+	/*color: #ff0456;*/
+	color:#ffffff;
 	font-family: "Lobster", cursive;
 	font-size:2.5em;
 	float: left;
@@ -58,14 +77,13 @@ section#splash {
 section#about {
 	padding:4em;
 }
-#pastries>img {
-	width:100%;
+#pastries>img {		/* Child selector. what you're saying is that any img that is a direct child of section id="pastries" gets the styling in the bracket */	width:100%;
 }
-#pastries div {
+#pastries div {		/* Descendent selector. any div's that are decendants (children or grandchildren) of the #pastries section get this styling */
 	height:370px;
 	overflow:hidden;
 }
-#pastries div img {
+#pastries div img {	/* multi leveled descendent selector that operates the same as above */
     float: left;
     width: 33.33%;
     display: block;
@@ -90,4 +108,3 @@ h1 {
   text-align: left;
   text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);	
 }
-
