@@ -2,9 +2,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body { font-family:verdana,Tahoma,sans-serif;
        font-size:16px;
        color: #222222;
+       line-height: 1.5em;
+       text-align: justify;
+       
 }
 #aboutBody {
 	background-image:url('images/branch.png');
@@ -73,3 +77,17 @@ section#about {
 	height: 0; 
 	clear: both;
 }
+
+. hero {
+	float: middle;
+}
+
+h1 {
+  color: #648880;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 20px 0 22px 0;
+  text-align: left;
+  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);	
+}
+
