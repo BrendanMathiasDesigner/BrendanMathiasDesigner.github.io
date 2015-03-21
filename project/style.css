@@ -10,12 +10,7 @@ body { font-family:verdana,Tahoma,sans-serif;
        text-align: justify;
        
 }
-#aboutBody {
-	background-image:url('images/branch.png');
-	background-repeat:no-repeat;
-	background-position:bottom right;
-	height:100vh;
-}
+
 header {
 	background-color:#c83737;
 	padding:1em;
@@ -30,6 +25,14 @@ nav a {
 	padding:.5;
 	font-size:1.25;
 	text-decoration: none;
+}
+h1 {
+  color: #648880;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 20px 0 22px 0;
+  text-align: left;
+  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);	
 }
 section {
 
@@ -88,6 +91,22 @@ section#about {
     width: 33.33%;
     display: block;
 }
+#aboutBody {
+	background-image:url('images/branch.png');
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	height:100vh;
+}
+#breads {
+	margin-left:2em;
+}
+#breads p{
+	width:500px;
+}
+
+
+
+}
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -96,15 +115,9 @@ section#about {
 	clear: both;
 }
 
-. hero {
-	float: middle;
+
+
+#learnmore p{
+	width:500px;
 }
 
-h1 {
-  color: #648880;
-  font-size: 36px;
-  line-height: 44px;
-  padding: 20px 0 22px 0;
-  text-align: left;
-  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);	
-}
