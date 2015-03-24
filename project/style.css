@@ -34,6 +34,9 @@ h1 {
   text-align: left;
   text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);	
 }
+p {
+	margin-bottom:1em;
+}
 section {
 
 }
@@ -79,6 +82,7 @@ section#splash img:last-child {
 }
 section#about {
 	padding:4em;
+	width:40em;
 }
 #pastries>img {		/* Child selector. what you're saying is that any img that is a direct child of section id="pastries" gets the styling in the bracket */	width:100%;
 }
