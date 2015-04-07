@@ -145,4 +145,13 @@ section#about {
 	section div {
 		width:100%;
 	}
+	#pastries div img {
+		width:100%;
+	}
+	section#splash img:first-child {
+		width:100%;
+	}
+	section#splash img:last-child {
+		width:100%;
+	}
 }
