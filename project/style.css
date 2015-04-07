@@ -42,12 +42,10 @@ nav a {
 h1 {
   
   color: #648880;
-  font-size: 36px;
+  font-size: 2em;
   line-height: 44px;
-  padding: 20px 0 22px 0;
+  padding: 1em 0 1em 1em;
   text-align: left;
-  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
-
 }
 
 p {
@@ -60,6 +58,7 @@ section {
 section div {
 	width:50%;
 	float:left;
+	padding:2em;
 }
 section div img {
 	width:100%;
