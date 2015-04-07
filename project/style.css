@@ -64,7 +64,7 @@ section div img {
 	width:100%;
 }
 section#splash, section#pastries {
-	width:100%;
+	max-width:100%;
 }
 section#splash {
 	background-color:#c83737;
@@ -121,22 +121,6 @@ section#about {
     width: 33.33%;
     display: block;
 }
-#aboutBody {
-	background-image:url('images/branch.png');
-	background-repeat:no-repeat;
-	background-position:bottom right;
-	height:100vh;
-}
-
-#aboutcakes {
-	background-image:url('images/branch.png');
-	background-repeat:no-repeat;
-	background-position:bottom right;
-	height:100vh;
-}
-
-
-
 
 .clearfix:after { 
 	content: "."; 
@@ -160,29 +144,6 @@ section#about {
 	width: 50%;
 }
 
-
-#image1 {
-	display: block;
-	float: right;
-	width: 50%;
-}
-
-#maca {
-	display: block;
-	float: right;
-	width: 50;
-}
-
-#chef {
-	display: block;
-	float: right;
-	width: 50%;
-
-}
-
-#contactinfo {
-	margin-left: 2em;
-}
 
 #est {
 	margin-left: 2em;
