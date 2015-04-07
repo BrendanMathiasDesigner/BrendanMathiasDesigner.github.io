@@ -55,7 +55,11 @@ p {
 	width: 500px;
 }
 section {
-
+	max-width:1200px;
+	margin:auto;
+}
+section#splash, section#pastries {
+	width:100%;
 }
 section#splash {
 	background-color:#c83737;
