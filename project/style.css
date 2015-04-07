@@ -154,6 +154,7 @@ section#about {
 	color:#fff;
 	text-decoration:none;
 	margin-bottom:1em;
+	display:block;
 }
 .menu-btn div {
 	position: absolute;
@@ -184,6 +185,7 @@ section#about {
 .expand {
 	display: block !important;
 	background-color:#ff5555;
+	padding:1em;
 }
 @media only screen and (min-width:460px) and (max-width:715px) {
 	.mobile-nav {
