@@ -5,9 +5,11 @@
 
 body { font-family:verdana,Tahoma,sans-serif;
        font-size:16px;
+       
        color: #222222;
        line-height: 1.5em;
        text-align: justify;
+
        
 }
 
@@ -15,27 +17,42 @@ header {
 	background-color:#c83737;
 	padding:1em;
 }
+
+
+
 nav   {
-	float:right;
-	margin:1em;
+	float: right;
+	margin: 1em;
+}
+
+a {
+
 }
 nav a {
+
+	text-decoration: none;
+	color: #000000;
 	color: #222222;
 	margin:1em;
 	padding:.5;
 	font-size:1.25;
 	text-decoration: none;
 }
+
 h1 {
+  
   color: #648880;
   font-size: 36px;
   line-height: 44px;
   padding: 20px 0 22px 0;
   text-align: left;
-  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);	
+  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+
 }
+
 p {
-	margin-bottom:1em;
+	margin-bottom: 1em;
+	width: 500px;
 }
 section {
 
@@ -79,6 +96,7 @@ section#splash img:last-child {
 	text-decoration:none;
 	text-align:center;
 	width:15em;
+	margin-bottom: 1em;
 }
 section#about {
 	padding:4em;
@@ -129,21 +147,68 @@ section#about {
 
 
 #learn {
+
 	margin-left:3em;
 	margin-top:2em;
 }
-#learn p {
+#learn  {
 	width:500px;
+	float: left;
 }
 
 
 }
-#about  p {
-	width:300px;
+#about   {
+	width:500px;
+	
 }
 
 #about  {
 	margin-left:0.1em;
 }
 
-#learn
+#breadcrumbs {
+	display: block;
+	float: right;
+	width: 50%;
+}
+
+
+#image1 {
+	display: block;
+	float: right;
+	width: 50%;
+}
+
+#maca {
+	display: block;
+	float: right;
+	width: 50;
+}
+
+#chef {
+	display: block;
+	float: right;
+	width: 50%;
+
+}
+
+#cakes {
+	margin-left: 2em;
+	line-height: 32px;
+	
+}
+
+#contactinfo {
+	margin-left: 2em;
+}
+
+#est {
+	margin-left: 2em;
+}
+
+#history {
+	margin-left: 2em;
+	width: 500px;
+}
+
