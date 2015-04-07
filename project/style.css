@@ -141,4 +141,8 @@ section#about {
 	float: right;
 	width: 50%;
 }
-
+@media only screen and (max-width:715px) {
+	section div {
+		width:100%;
+	}
+}
