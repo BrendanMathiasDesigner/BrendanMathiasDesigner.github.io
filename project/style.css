@@ -144,7 +144,45 @@ section#about {
 	float: right;
 	width: 50%;
 }
+.mobile-nav {
+	display:none;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(255,255,255);
+	z-index: 99;
+}
+
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important; 
+}
 @media only screen and (min-width:460px) and (max-width:715px) {
+	.mobile-nav {
+		display:block;
+	}
+	nav {
+		display:none;
+	}
 	section div {
 		width:100%;
 	}
@@ -162,6 +200,12 @@ section#about {
 	}
 }
 @media only screen and (max-width:459px) {
+	.mobile-nav {
+		display:block;
+	}
+	nav {
+		display:none;
+	}
 	section div {
 		width:100%;
 	}
