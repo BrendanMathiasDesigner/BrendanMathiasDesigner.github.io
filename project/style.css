@@ -104,12 +104,11 @@ section#splash img:last-child {
 }
 section#about {
 	padding:4em;
-	width:40em;
 }
 #pastries>img {		/* Child selector. what you're saying is that any img that is a direct child of section id="pastries" gets the styling in the bracket */	width:100%;
 }
 #pastries div {		/* Descendent selector. any div's that are decendants (children or grandchildren) of the #pastries section get this styling */
-	height:370px;
+	height:270px;
 	overflow:hidden;
 }
 #pastries div img {	/* multi leveled descendent selector that operates the same as above */
@@ -131,13 +130,6 @@ section#about {
 	height:100vh;
 }
 
-#breads {
-	margin-left:2em;
-}
-#breads p {
-	width:500px;
-}
-
 
 
 
@@ -151,24 +143,10 @@ section#about {
 
 
 #learn {
-
-	margin-left:3em;
 	margin-top:2em;
 }
-#learn  {
-	width:500px;
-	float: left;
-}
 
 
-}
-#about   {
-	width:500px;
-	
-}
-
-#about  {
-	margin-left:0.1em;
 }
 
 #breadcrumbs {
@@ -197,22 +175,11 @@ section#about {
 
 }
 
-#cakes {
-	margin-left: 2em;
-	line-height: 32px;
-	
-}
-
 #contactinfo {
 	margin-left: 2em;
 }
 
 #est {
 	margin-left: 2em;
-}
-
-#history {
-	margin-left: 2em;
-	width: 500px;
 }
 
