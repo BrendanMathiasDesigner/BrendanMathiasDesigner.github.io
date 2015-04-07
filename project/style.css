@@ -17,26 +17,20 @@ header {
 	background-color:#c83737;
 	padding:1em;
 }
-
-
-
 nav   {
 	float: right;
 	margin: 1em;
 }
-
-a {
-
-}
 nav a {
-
 	text-decoration: none;
-	color: #000000;
-	color: #222222;
+	color: #ffffff;
 	margin:1em;
 	padding:.5;
 	font-size:1.25;
 	text-decoration: none;
+}
+nav a:hover {
+	color:#ff5555;
 }
 
 h1 {
@@ -44,8 +38,11 @@ h1 {
   color: #648880;
   font-size: 2em;
   line-height: 44px;
-  padding: 1em 0 1em 1em;
+  padding: 1em 0 0 1em;
   text-align: left;
+}
+h2 {
+	color:#800000;
 }
 
 p {
@@ -100,12 +97,11 @@ section#splash img:last-child {
 	border:.2em #222 solid;
 	color:#222;
 	display:block;
-	margin:2em 0 0 0;
+	margin:1em 0 3em 0;
 	padding:1em 2em;
 	text-decoration:none;
 	text-align:center;
 	width:15em;
-	margin-bottom: 1em;
 }
 section#about {
 	padding:4em;
@@ -144,10 +140,5 @@ section#about {
 	display: block;
 	float: right;
 	width: 50%;
-}
-
-
-#est {
-	margin-left: 2em;
 }
 
