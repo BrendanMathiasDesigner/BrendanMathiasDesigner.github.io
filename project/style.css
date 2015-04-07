@@ -52,11 +52,17 @@ h1 {
 
 p {
 	margin-bottom: 1em;
-	width: 500px;
 }
 section {
 	max-width:1200px;
 	margin:auto;
+}
+section div {
+	width:50%;
+	float:left;
+}
+section div img {
+	width:100%;
 }
 section#splash, section#pastries {
 	width:100%;
