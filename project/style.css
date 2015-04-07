@@ -115,6 +115,8 @@ section#about {
 #pastries div {		/* Descendent selector. any div's that are decendants (children or grandchildren) of the #pastries section get this styling */
 	height:270px;
 	overflow:hidden;
+	padding:0;
+	width:100%;
 }
 #pastries div img {	/* multi leveled descendent selector that operates the same as above */
     float: left;
